@@ -1,5 +1,8 @@
 name: save-size
-on: push
+on:
+  push:
+    branches:
+      - main
 jobs:
   save-size:
     runs-on: ubuntu-latest
